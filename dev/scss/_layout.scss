@@ -1,0 +1,29 @@
+//  ## LAYOUT  ----------------------------------------------------------------------//
+
+body {
+    background-color: $base--backgroundColor;
+    padding: 100px 10px 50px;
+}
+
+
+//  ## UI OVERRIDES  ----------------------------------------------------------------//
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a,
+:focus {
+    outline: none !important;
+}
+
+//  ## MEDIA QUERIES  ---------------------------------------------------------------//
+
+@media screen and (min-width: $breakpoint-one) {
+
+    .container {
+        margin: 0 auto;
+        max-width: $breakpoint-one;
+        width: 100%;
+    }
+}
